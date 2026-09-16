@@ -6,6 +6,8 @@ Build a simplified Monte Carlo research demonstrator for an electron beam incide
 ## Input available
 Public NIST stopping-power/range information and synthetic geometries only. No clinical patient data and no production dose engine.
 
+A local cache of official NIST ESTAR electron data is provided in `nist_estar/` for liquid water, dry air, cortical bone (ICRP), and soft tissue (ICRP). Prefer this local cache during the autonomous run so the build does not depend on NIST network availability. Raw NIST text and parsed CSV files are both included.
+
 ## What should we see tomorrow?
 Interactive phantom and beam controls, particle-history visualisation, 3D dose distribution, selectable 2D slices and a depth-dose style plot.
 
